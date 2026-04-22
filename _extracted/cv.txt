@@ -1,0 +1,164 @@
+이력서:
+최 	재 	운
+(崔 	在 	蕓 	/ 	Jaeun 	Choi)
+인적사항 	성명 	최 	재 	운 	(崔 	在 	蕓 	/ 	Jaeun 	Choi)
+생년월일 	1984. 	10. 	06
+휴대전화 	010-2239-3456
+E-mail 	plutoun@gmail.com
+현재소속 	광운대학교 	경영학부 	부교수
+전공분야 	산업및시스템공학 	머신러닝 	/ 	경영과학
+학력사항 	2000.03 	– 	2002.02
+부산과학고등학교 	(조기졸업)
+2002.03 	– 	2007.02
+KAIST 	산업공학과 	공학사
+2007.02 	– 	2009.08
+KAIST 	산업및시스템공학과 	공학석사
+2009.09 	– 	2013.02
+KAIST 	산업및시스템공학과 	공학박사
+(박사학위 	논문명: 	안전한 	인터넷 	서비스를 	위한 	기계 	학습 	기법에 	관한 	연구)
+주요경력 	기간
+회사
+2013.03 	- 	2019.06
+삼성전자 	삼성리서치 	AI센터 	Staff 	Engineer
+기간
+회사
+2019.06 	- 	2020.02
+소프트웨어정책연구소 	데이터·통계연구팀 	선임연구원
+기간
+회사
+2020.03 	- 	2023. 	02
+경일대학교 	컴퓨터사이언스학부 	/ 	글로벌비즈니스학과 	조교수
+기간
+회사
+2023.03 	- 	현재
+광운대학교 	경영학부 	부교수
+
+-- 1 of 3 --
+
+주요 	학술활동 	및 	교육활동:
+논 	문
+(2020년
+이후,
+SCIE급
+주저자)
+연도 	논문명 	게재지명 	역할
+2024 Scalable 	Learning 	Framework 	for 	Detecting 	New 	Types
+of 	Twitter 	Spam 	with 	Misuse 	and 	Anomaly 	Detection Sensors 	제1저자
+2023 An 	IoMT-based 	melanoma 	lesion 	segmentation 	using
+conditional 	generative 	adversarial 	networks Sensors 	교신저자
+2023 A 	Real‐Time 	Data 	Monitoring 	Framework 	for 	Predictive
+Maintenance 	Based 	on 	the 	Internet 	of 	Things Complexity 	제1저자
+2021
+Cost-Based 	Heterogeneous 	Learning 	Framework 	for
+Real-Time 	Spam 	Detection 	in 	Social 	Networks 	With
+Expert 	Decisions
+IEEE
+Access 제1저자
+2021
+A 	Heterogeneous 	Learning 	Framework 	for
+Over-the-Top 	Consumer 	Analysis 	Reflecting 	the
+Actual 	Market 	Environment
+Applied
+Sciences 제1저자
+2020
+Time-Aware 	Learning 	Framework 	for 	Over-The-Top
+Consumer 	Classification 	Based 	on 	Machine- 	and
+Deep-Learning 	Capabilities
+Applied
+Sciences 제1저자
+프로젝트 	연도 	활동명 	/ 	보고서명 	형태 	수행기관
+2024~
+2026 인공지능조사통계위원회 	활동 	연구책임자 	한국연구재단
+2020 	소프트웨어 	고성장 	기업 	성장전략 	연구 	연구보고서 https://www.spri.kr/posts/vi
+ew/22926
+2020 	2020년 	소프트웨어산업 	전망 	연구보고서 https://www.spri.kr/posts/vi
+ew/22925
+2020 	유망 	소프트웨어 	분야 	인력수급 	전망 	연구보고서 과학기술정보통신부 	요청으로
+수행한 	연구로 	외부 	비공개
+2019 알파고 	이후 	3년, 	딥마인드의
+최근동향과 	미래 	전망 기고문 https://www.spri.kr/posts/vi
+ew/22820
+2019 	스마트시티를 	현실로 	만들어 	줄 	5G 	기고문 https://www.spri.kr/posts/vi
+ew/22759
+삼성전자
+연구활동
+업무유형 	연구내용
+연구개발
+- 	AI 	서비스를 	위한 	Samsung 	One 	Cloud 	Architecture 	설계 	및 	구현
+- 	AI 	Data 	수집을 	위한 	Data 	Annotation 	서비스 	기획 	및 	개발
+- 	블록체인 	TV 	서비스 	기획 	및 	개발
+- 	AI 	기반 	Server 	Log 	분석을 	통한 	이상징후 	탐지 	서비스 	개발
+사업전략
+(T/F 	활동)
+- 	삼성전자 	전사 	IoT 	SW 	Platform 	구축을 	위한 	T/F 	실무 	리더
+- 	삼성기술전 	IoT 	체험관 	구축 	실무 	리더
+- 	삼성전자 	신사업발굴(SGTO) 	T/F 	참여
+- 	로봇 	활용 	사업 	기회 	발굴 	T/F 	참여
+
+-- 2 of 3 --
+
+참여과제 과 	제 	명 	참여형태 	기간 	수행기관명 	주관기관
+스마트팩토리 	통합운영센터 	운영을 	통한 	전문 	인력 	양성
+# 	링크:
+https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=10
+2&oid=008&aid=0004430077
+연구소장*
+으로 	참여
+2020~
+2021
+경일대
+스마트팩토리
+연구소
+경북스마
+트제조혁
+신센터
+인공지능 	및 	블록체인 	분야 	혁신성장 	청년인재 	양성 	업무 교육과정
+참여
+2020~
+2021 경일대 한국표준
+협회
+인공지능 	실무인재 	육성 	및 	일자리 	창출 	지원 교육과정
+참여 2020 	경일대 	포항TP
+인공지능(AI)연계 	기업현장 	실습 	프로젝트 	운영 	멘토교수 	2021 	㈜더키움 	포항TP
+강의
+교과목
+학기 	교과목명 	대상학과 	시수 	기타
+2020-1
+해킹및악성코드 	컴퓨터사이언스학부 	2
+해킹및악성코드실습 	컴퓨터사이언스학부 	2
+보안과해커 	교양선택 	2 정원 	100명 	2개 	분반 	운영
+(1초만에 	강의 	마감)
+산업공학의이해 	스마트팩토리융합학과 	3
+인공지능의이해 	교양선택 	2
+2020-2
+문제해결과프로그래밍 	컴퓨터사이언스학부 	2
+문제해결과프로그래밍실습 	컴퓨터사이언스학부 	2
+보안과해커 	교양선택 	2 	정원 	100명 	2개 	분반 	운영
+산업수학 	스마트팩토리융합학부 	3
+스마트기초수학 	스마트융합학과 	3
+인공지능의이해 	교양선택 	2
+2021-1
+해킹및악성코드 	컴퓨터사이언스학부 	2
+해킹및악성코드실습 	컴퓨터사이언스학부 	2
+데이터와통계 	스마트융합학부 	3
+보안과해커 	교양선택 	2 	정원 	100명 	2개 	분반 	운영
+컴퓨터사이언스개론 	컴퓨터사이언스학부 	3
+2021-2
+보안과해커 	교양선택 	2 	정원 	100명 	2개 	분반 	운영
+스마트기초수학 	스마트융합학과 	3
+유쾌한코딩 	교양필수 	3 	전 	신입생 	수강 	교과목
+스마트팩토리운영 	스마트팩토리전공 	3
+2022-1
+ESG경영마인드이해 	글로벌비즈니스학과 	3 	정원 	100명
+글로벌산업의이해 	글로벌비즈니스학과 	3 	정원 	100명
+소셜미디어분석 	산업경영전공 	3
+유쾌한코딩 	교양필수 	3
+2022-2
+ESG경영마인드이해 	글로벌비즈니스학과 	3 	정원 	150명
+글로벌산업의이해 	글로벌비즈니스학과 	3
+산업공학개론 	기계자동화융합학과 	3
+스마트기초수학 	스마트융합학과 	3
+국제경영전략 	경영대학원 	3 	대학원 	강의
+
+-- 3 of 3 --
+

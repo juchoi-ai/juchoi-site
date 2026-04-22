@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media · 최재운 — 방송·유튜브·언론</title>
+<script>
+(function(){try{var t=new URL(location.href).searchParams.get('t');if(!t)return;var s='?t='+encodeURIComponent(t);new MutationObserver(function(m){m.forEach(function(x){x.addedNodes.forEach(function(n){if(n.nodeType!==1)return;var a=n.tagName==='LINK'?'href':(n.tagName==='SCRIPT'||n.tagName==='IMG')?'src':null;if(!a)return;var v=n.getAttribute(a);if(v&&v.indexOf('://')===-1&&v.indexOf('//')!==0&&v.indexOf('assets/')===0)n.setAttribute(a,v+s);});});}).observe(document.documentElement,{childList:true,subtree:true});}catch(e){}})();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="assets/shared.css">
+<script>const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{"theme":"warm","dark":false}/*EDITMODE-END*/;</script>
+<style>
+.page-hero h1.en-hero { font-family: var(--serif); font-weight: 300; font-size: clamp(52px, 7vw, 100px); line-height: 1.02; letter-spacing: -0.035em; font-style: italic; }
+.page-hero h1.en-hero .en-italic { color: var(--accent); font-weight: 400; }
+.media-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: start; margin-bottom: 72px; }
+.yt-featured { background: var(--ink); color: var(--bg); overflow: hidden; position: relative; cursor: pointer; display: block; }
+.yt-featured .th { aspect-ratio: 16/9; position: relative; overflow: hidden; background: #000; }
+.yt-featured .th img { width: 100%; height: 100%; object-fit: cover; opacity: 0.75; transition: opacity 0.3s, transform 0.5s; }
+.yt-featured:hover .th img { opacity: 0.95; transform: scale(1.04); }
+.yt-featured .play { position: absolute; inset: 0; display: grid; place-items: center; }
+.yt-featured .pbtn { width: 84px; height: 84px; border-radius: 50%; background: rgba(255,255,255,0.96); color: var(--ink); display: grid; place-items: center; font-size: 24px; transition: transform 0.25s, background 0.25s; padding-left: 6px; }
+.yt-featured:hover .pbtn { background: var(--accent); color: var(--paper); transform: scale(1.08); }
+.yt-featured .live { position: absolute; top: 16px; left: 16px; font-family: var(--mono); font-size: 10px; background: var(--accent); color: var(--paper); padding: 5px 11px; letter-spacing: 0.14em; text-transform: uppercase; display: flex; align-items: center; gap: 6px; z-index: 2; }
+.yt-featured .info { padding: 32px 36px; }
+.yt-featured .ch { font-family: var(--mono); font-size: 10px; letter-spacing: 0.18em; color: color-mix(in oklab, var(--bg) 65%, transparent); text-transform: uppercase; margin-bottom: 14px; }
+.yt-featured h3 { font-family: var(--sans); font-weight: 500; font-size: 28px; line-height: 1.25; letter-spacing: -0.03em; margin-bottom: 12px; word-break: keep-all; }
+.yt-featured p { font-size: 14px; line-height: 1.7; color: color-mix(in oklab, var(--bg) 78%, transparent); word-break: keep-all; }
+
+.yt-list { display: flex; flex-direction: column; gap: 2px; background: var(--line); border: 1px solid var(--line); }
+.yt-item { background: var(--bg); padding: 16px; display: grid; grid-template-columns: 140px 1fr; gap: 16px; cursor: pointer; transition: background 0.2s; align-items: center; }
+.yt-item:hover { background: var(--paper); }
+.yt-item .mth { aspect-ratio: 16/9; background: var(--bg-deep); position: relative; overflow: hidden; }
+.yt-item .mth img { width: 100%; height: 100%; object-fit: cover; }
+.yt-item .mth .pi { position: absolute; inset: 0; display: grid; place-items: center; color: rgba(255,255,255,0.95); font-size: 20px; text-shadow: 0 2px 8px rgba(0,0,0,0.4); }
+.yt-item .mm .ch { font-family: var(--mono); font-size: 9px; letter-spacing: 0.16em; color: var(--accent); text-transform: uppercase; margin-bottom: 5px; }
+.yt-item .mm .t { font-size: 14px; font-weight: 500; color: var(--ink); line-height: 1.4; letter-spacing: -0.015em; word-break: keep-all; }
+
+.press-row { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--line); border: 1px solid var(--line); }
+.press-item { background: var(--bg); padding: 32px 36px; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; gap: 14px; min-height: 200px; }
+.press-item:hover { background: var(--paper); }
+.press-item .outlet { display: flex; justify-content: space-between; align-items: baseline; }
+.press-item .outlet .o { font-weight: 600; font-size: 15px; color: var(--accent); letter-spacing: -0.01em; }
+.press-item .outlet .d { font-family: var(--mono); font-size: 10px; color: var(--ink-muted); letter-spacing: 0.04em; }
+.press-item h4 { font-family: var(--sans); font-weight: 500; font-size: 18px; line-height: 1.45; letter-spacing: -0.02em; color: var(--ink); flex-grow: 1; word-break: keep-all; }
+.press-item .arr { font-family: var(--mono); font-size: 11px; color: var(--ink-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: auto; }
+
+@media (max-width: 1100px) { .media-grid { grid-template-columns: 1fr; } .press-row { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div id="site-nav"></div>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Media · 방송 · 유튜브 · 언론</div>
+    <h1 class="en-hero"><span class="en-italic">Same story,</span><br>told in a <span class="en-italic">wider room.</span></h1>
+    <p class="lead">세바시, 그랜드마스터클래스, TEDx를 비롯해 AI 관련 주요 채널에 출연해 왔습니다.<br>주요 언론사의 인터뷰 기사도 함께 정리했습니다.</p>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="sec-num">Video · YouTube</div><h2 class="sec-title">영상으로 보는 이야기</h2></div>
+      <p class="sec-lead">추천 영상 한 편과, 그 옆으로 최근 출연 영상들. 썸네일을 클릭하면 해당 영상이 새 창으로 열립니다.</p>
+    </div>
+
+    <div class="media-grid">
+      <a class="yt-featured" href="https://youtu.be/DGZsPoodnZI" target="_top" rel="noopener">
+        <div class="th">
+          <img src="https://img.youtube.com/vi/DGZsPoodnZI/hqdefault.jpg" alt="YouTube 썸네일">
+          <div class="live">● Featured</div>
+          <div class="play"><div class="pbtn">▶</div></div>
+        </div>
+        <div class="info">
+          <div class="ch">SBS 스브스뉴스 · 하지만 해냈죠? EP.1</div>
+          <h3>AI에게 소송 맡기면 벌어지는 일 — 변호사 편</h3>
+          <p>"이 직업도 AI가 한다, 저 직업도 사라진다" — 그래서 진짜 어떨까. 고소장도 AI가 써주는 시대, 변호사들의 현실과 AI 리터러시 이야기를 SBS 스브스뉴스 기획 시리즈에서 나눴습니다. (26분 · 2026)</p>
+        </div>
+      </a>
+
+      <div class="yt-list">
+        <a class="yt-item" href="https://youtu.be/PWjq4WV0yHA" target="_top" rel="noopener">
+          <div class="mth"><img src="https://img.youtube.com/vi/PWjq4WV0yHA/mqdefault.jpg" alt=""><div class="pi">▶</div></div>
+          <div class="mm"><div class="ch">세바시 강연 · 세바시45 ep.91</div><div class="t">AI 시대 '인재전쟁' 생존법 — 부모·직장인 필수 시청</div></div>
+        </a>
+        <a class="yt-item" href="https://youtu.be/OCLamu29yVs" target="_top" rel="noopener">
+          <div class="mth"><img src="https://img.youtube.com/vi/OCLamu29yVs/mqdefault.jpg" alt=""><div class="pi">▶</div></div>
+          <div class="mm"><div class="ch">신사임당 · 풀버전</div><div class="t">『인간 없는 전쟁』 북토크 — AI 시대, 머스크가 꿈꾸는 미래</div></div>
+        </a>
+        <a class="yt-item" href="https://youtu.be/TT8excb2CCE" target="_top" rel="noopener">
+          <div class="mth"><img src="https://img.youtube.com/vi/TT8excb2CCE/mqdefault.jpg" alt=""><div class="pi">▶</div></div>
+          <div class="mm"><div class="ch">그랜드마스터클래스 · 그랜드마스터북</div><div class="t">『인간 없는 전쟁』 북토크 — AI 전쟁 시대, 인간은 무엇을 할 수 있나</div></div>
+        </a>
+        <a class="yt-item" href="https://youtu.be/I7nzYmG_MQY" target="_top" rel="noopener">
+          <div class="mth"><img src="https://img.youtube.com/vi/I7nzYmG_MQY/mqdefault.jpg" alt=""><div class="pi">▶</div></div>
+          <div class="mm"><div class="ch">그랜드마스터클래스 · 그랜드마스터북</div><div class="t">『AI, 인문학에 길을 묻다』 북토크 — AI는 '의식'을 가질까</div></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top: 72px;">
+      <div><div class="sec-num">Press · Interviews</div><h2 class="sec-title">지면에서 만난 질문들</h2></div>
+      <p class="sec-lead">주요 언론·출판 플랫폼과의 인터뷰. 원문은 각 카드를 클릭하면 새 창에서 열립니다.</p>
+    </div>
+
+    <div class="press-row">
+      <a class="press-item" href="https://www.hani.co.kr/arti/economy/it/1249456.html" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">한겨레</span><span class="d">Interview · 2026.03</span></div>
+        <h4>"AI 군비경쟁 계속돼도, 전쟁 멈추는 건 여전히 인간의 몫" — 『인간 없는 전쟁』 저자 최재운</h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://ch.yes24.com/article/details/81397" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">YES24 채널예스</span><span class="d">Author Interview · 2025.08</span></div>
+        <h4>[브런치북 12회 대상 작가] 최재운 — "기계가 인간을 닮을수록, 우리는 더 인간다워져야 합니다"</h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://n.news.naver.com/mnews/article/023/0003952058?sid=103" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">조선일보</span><span class="d">Book Review · 2026.01</span></div>
+        <h4>대통령까지 생포… 전쟁 '게임 체인저'가 된 AI — 『인간 없는 전쟁』</h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://n.news.naver.com/mnews/article/009/0005619627?sid=103" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">매일경제</span><span class="d">Book · 2026.01</span></div>
+        <h4>인간이 사라진 전쟁터에서… 인간은 더 위험해졌다 — 『인간 없는 전쟁』</h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<div id="site-tweaks"></div>
+<script src="assets/site.js"></script>
+<script>initSite('media');</script>
+</body>
+</html>

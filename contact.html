@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact · 최재운 — 강연·자문·협업</title>
+<script>
+(function(){try{var t=new URL(location.href).searchParams.get('t');if(!t)return;var s='?t='+encodeURIComponent(t);new MutationObserver(function(m){m.forEach(function(x){x.addedNodes.forEach(function(n){if(n.nodeType!==1)return;var a=n.tagName==='LINK'?'href':(n.tagName==='SCRIPT'||n.tagName==='IMG')?'src':null;if(!a)return;var v=n.getAttribute(a);if(v&&v.indexOf('://')===-1&&v.indexOf('//')!==0&&v.indexOf('assets/')===0)n.setAttribute(a,v+s);});});}).observe(document.documentElement,{childList:true,subtree:true});}catch(e){}})();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="assets/shared.css">
+<script>const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{"theme":"warm","dark":false}/*EDITMODE-END*/;</script>
+<style>
+.page-hero h1.en-hero { font-family: var(--serif); font-weight: 300; font-size: clamp(52px, 7vw, 100px); line-height: 1.02; letter-spacing: -0.035em; font-style: italic; }
+.page-hero h1.en-hero .en-italic { color: var(--accent); font-weight: 400; }
+.contact-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 64px; margin-top: 24px; }
+.contact-main { background: var(--bg); border: 1px solid var(--line); padding: 56px 48px; position: relative; }
+.contact-main::before { content: ''; position: absolute; top: 0; bottom: 0; left: 0; width: 3px; background: var(--accent); }
+.contact-main h3 { font-family: var(--sans); font-weight: 300; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.2; letter-spacing: -0.03em; margin-bottom: 20px; word-break: keep-all; }
+.contact-main h3 em { font-family: var(--serif); font-style: italic; color: var(--accent); font-weight: 400; }
+.contact-main h3 .kr-italic { color: var(--accent); font-weight: 500; }
+.contact-main p { font-size: 15px; line-height: 1.8; color: var(--ink-soft); margin-bottom: 16px; word-break: keep-all; }
+.contact-main p strong { color: var(--ink); font-weight: 600; }
+.email-big { display: flex; align-items: center; gap: 14px; margin-top: 28px; padding: 18px 24px; background: var(--ink); color: var(--bg); font-family: var(--mono); font-size: 14px; letter-spacing: 0.04em; cursor: pointer; border: none; transition: background 0.2s; width: 100%; }
+.email-big:hover { background: var(--accent); }
+.email-big .arr { margin-left: auto; transition: transform 0.2s; }
+.email-big:hover .arr { transform: translateX(4px); }
+
+.contact-side .card { background: var(--bg); border: 1px solid var(--line); padding: 28px 32px; margin-bottom: 16px; }
+.contact-side .card h5 { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+.contact-side .card h5 .n { color: var(--accent); }
+.contact-side .card p { font-size: 14px; line-height: 1.7; color: var(--ink); word-break: keep-all; }
+.contact-side .card p em { font-style: normal; color: var(--ink-muted); display: block; margin-top: 4px; font-size: 12px; }
+
+.req-guide { background: var(--bg-alt); border: 1px solid var(--line); padding: 40px 44px; margin-top: 48px; }
+.req-guide h4 { font-family: var(--sans); font-weight: 500; font-size: 22px; margin-bottom: 20px; letter-spacing: -0.02em; }
+.req-guide h4 em { font-family: var(--serif); font-style: italic; color: var(--accent); font-weight: 400; }
+.req-guide ol { list-style: none; counter-reset: r; display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px 32px; }
+.req-guide ol li { counter-increment: r; padding-left: 40px; position: relative; font-size: 14px; line-height: 1.65; color: var(--ink-soft); word-break: keep-all; }
+.req-guide ol li::before { content: counter(r, decimal-leading-zero); position: absolute; left: 0; top: 0; font-family: var(--mono); font-size: 11px; color: var(--accent); font-weight: 500; letter-spacing: 0.1em; }
+.req-guide ol li strong { color: var(--ink); font-weight: 600; display: block; margin-bottom: 3px; }
+
+@media (max-width: 1000px) { .contact-grid { grid-template-columns: 1fr; gap: 40px; } .req-guide ol { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div id="site-nav"></div>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Contact · 강연·자문·협업 문의</div>
+    <h1 class="en-hero">Let's make <span class="en-italic">room</span><br>for the <span class="en-italic">conversation</span>.</h1>
+    <p class="lead">AI를 둘러싼 흐름, 그리고 그 안에서 사람이 해야 할 일. 강연·자문·공동연구·인터뷰 문의를 환영합니다. 행사 정보를 포함한 이메일을 보내주시면 영업일 내에 회신드립니다.</p>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-main">
+        <h3>Email을 <span class="kr-italic">가장 편히</span> 받습니다.</h3>
+        <p>일정·예산·청중의 특성을 간단히 포함해 주시면, 거기에 맞는 기조와 길이로 강연을 설계해 드립니다. 자문·공동연구·언론 인터뷰도 동일한 주소로 연락 주시면 됩니다.</p>
+        <p><strong>버튼을 클릭하면 이메일 주소가 표시됩니다.</strong> (스팸 방지)</p>
+        <button class="email-big" data-email-btn>
+          <span data-email-text>이메일 주소 보기</span>
+          <span class="arr">→</span>
+        </button>
+      </div>
+
+      <div class="contact-side">
+        <div class="card">
+          <h5><span>Affiliation</span><span class="n">01</span></h5>
+          <p>광운대학교 경영대학 경영학부 빅데이터경영전공 교수<em>College of Business · Big Data Management · Kwangwoon University</em></p>
+        </div>
+        <div class="card">
+          <h5><span>Office</span><span class="n">02</span></h5>
+          <p>서울 노원구 광운로 20<em>20 Gwangwoon-ro, Nowon-gu, Seoul, Republic of Korea</em></p>
+        </div>
+        <div class="card">
+          <h5><span>Response</span><span class="n">03</span></h5>
+          <p>영업일 2일 이내 회신<em>긴급 일정은 메일 제목에 [긴급]을 표시해 주세요.</em></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="req-guide">
+      <h4>섭외 요청 시 <em>함께 보내주세요</em></h4>
+      <ol>
+        <li><strong>행사명 · 주최</strong>행사 성격과 주최 기관 정보</li>
+        <li><strong>일시 · 장소</strong>구체적인 날짜·시간, 대면/온라인 여부</li>
+        <li><strong>청중</strong>연령, 직군, 예상 인원</li>
+        <li><strong>강연 주제</strong>원하시는 주제 또는 목적. (없으시면 함께 조율합니다)</li>
+        <li><strong>길이 · 형식</strong>20분 TED 포맷 / 60–90분 기조 / 120분 북토크 등</li>
+        <li><strong>예산 · 기타</strong>교통·숙박·자료 사전 요청 등이 있다면 함께</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<div id="site-tweaks"></div>
+<script src="assets/site.js"></script>
+<script>initSite('contact');</script>
+</body>
+</html>

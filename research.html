@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research · 최재운 — 연구 실적</title>
+<script>
+(function(){try{var t=new URL(location.href).searchParams.get('t');if(!t)return;var s='?t='+encodeURIComponent(t);new MutationObserver(function(m){m.forEach(function(x){x.addedNodes.forEach(function(n){if(n.nodeType!==1)return;var a=n.tagName==='LINK'?'href':(n.tagName==='SCRIPT'||n.tagName==='IMG')?'src':null;if(!a)return;var v=n.getAttribute(a);if(v&&v.indexOf('://')===-1&&v.indexOf('//')!==0&&v.indexOf('assets/')===0)n.setAttribute(a,v+s);});});}).observe(document.documentElement,{childList:true,subtree:true});}catch(e){}})();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="assets/shared.css">
+<script>const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{"theme":"warm","dark":false}/*EDITMODE-END*/;</script>
+<style>
+.page-hero h1.en-hero { font-family: var(--serif); font-weight: 300; font-size: clamp(52px, 7vw, 100px); line-height: 1.02; letter-spacing: -0.035em; font-style: italic; }
+.page-hero h1.en-hero .en-italic { color: var(--accent); font-weight: 400; }
+.pub-list { border-top: 1px solid var(--line); margin-bottom: 28px; }
+.pub-row { display: grid; grid-template-columns: 70px 110px 1fr 32px; gap: 24px; padding: 22px 0; border-bottom: 1px solid var(--line-soft); align-items: baseline; transition: padding 0.25s, background 0.25s; }
+.pub-row:hover { background: color-mix(in oklab, var(--accent) 5%, transparent); padding-left: 16px; padding-right: 16px; }
+.pub-row .yr { font-family: var(--mono); font-size: 12px; color: var(--ink-muted); letter-spacing: 0.04em; }
+.pub-row .role { font-family: var(--mono); font-size: 9px; letter-spacing: 0.14em; color: var(--accent); text-transform: uppercase; padding: 4px 8px; border: 1px solid var(--accent); border-radius: 999px; display: inline-block; justify-self: start; }
+.pub-row .ti { font-size: 16px; font-weight: 500; color: var(--ink); line-height: 1.45; letter-spacing: -0.01em; }
+.pub-row .ti em { color: var(--ink-muted); font-size: 12px; font-style: italic; font-family: var(--serif); display: block; margin-top: 6px; font-weight: 400; letter-spacing: 0.01em; }
+.pub-row .ar { font-family: var(--mono); font-size: 16px; color: var(--ink-muted); opacity: 0; transform: translateX(-6px); transition: all 0.3s; }
+.pub-row:hover .ar { opacity: 1; transform: translateX(0); color: var(--accent); }
+.pub-note { font-family: var(--mono); font-size: 11px; color: var(--ink-muted); margin-top: 16px; text-align: right; letter-spacing: 0.04em; }
+
+.projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; background: var(--line); border: 1px solid var(--line); margin-top: 32px; }
+.project { background: var(--bg); padding: 28px 32px; }
+.project .pyr { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
+.project .pt { font-size: 17px; font-weight: 600; color: var(--ink); line-height: 1.35; letter-spacing: -0.015em; margin-bottom: 8px; word-break: keep-all; }
+.project .pm { font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; color: var(--ink-muted); }
+.project .phome { display: inline-block; margin-top: 6px; padding: 3px 8px; font-size: 10px; font-family: var(--mono); background: var(--accent); color: var(--paper); letter-spacing: 0.1em; text-transform: uppercase; }
+
+.area-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+.area { border: 1px solid var(--line); background: var(--bg); padding: 28px; }
+.area .num { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; color: var(--accent); text-transform: uppercase; margin-bottom: 14px; }
+.area h4 { font-family: var(--sans); font-weight: 500; font-size: 20px; line-height: 1.3; letter-spacing: -0.02em; margin-bottom: 10px; word-break: keep-all; }
+.area p { font-size: 13.5px; line-height: 1.7; color: var(--ink-soft); word-break: keep-all; }
+
+@media (max-width: 1100px) { .projects-grid, .area-grid { grid-template-columns: 1fr; } .pub-row { grid-template-columns: 56px 1fr; gap: 12px; } .pub-row .role, .pub-row .ar { display: none; } }
+</style>
+</head>
+<body>
+<div id="site-nav"></div>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Research · 연구 실적</div>
+    <h1 class="en-hero"><span class="en-italic">Between data</span><br>and the <span class="en-italic">people</span> behind it.</h1>
+    <p class="lead">머신러닝·딥러닝 기반의 이상 행위 탐지, IoT 산업 데이터 분석, 소비자 분석을 중심으로 SCIE급 국제 학술지 논문을 발표해 왔습니다. 현재 한국연구재단 신진연구자지원사업의 연구책임자를 맡고 있습니다.</p>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-num">Research Areas</div>
+        <h2 class="sec-title">세 개의<br>연구 축</h2>
+      </div>
+      <p class="sec-lead">각 축은 독립된 듯 보이지만, '이상(anomaly)을 어떻게 정의하고 탐지할 것인가'라는 공통 질문으로 이어집니다.</p>
+    </div>
+    <div class="area-grid">
+      <div class="area"><div class="num">No. 01</div><h4>Social Media Anomaly Detection</h4><p>스팸·봇·허위정보 탐지. Misuse/Anomaly 하이브리드 학습 구조와 Cost-Based Heterogeneous Learning을 통해 실시간 환경에서의 탐지 정확도를 끌어올립니다.</p></div>
+      <div class="area"><div class="num">No. 02</div><h4>IoT · Industrial Data</h4><p>IoMT 피부 병변 분할(cGAN), IoT 기반 예지보전(Predictive Maintenance). 현실 산업 데이터의 비정형성과 시계열성을 함께 다룹니다.</p></div>
+      <div class="area"><div class="num">No. 03</div><h4>산불 재난 대응</h4><p>재난은 발생 이후가 아니라 이전에 설계되어야 합니다. 강원도 산불 피해 데이터에 복합 지표(Composite Indexing)와 Fire Weather 변수를 결합해 피해 심각도를 예측하고, 예방 거버넌스와 AI 감시 체계를 함께 설계합니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block paper">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-num">Selected Publications</div>
+        <h2 class="sec-title">주요 논문 (SCIE급)</h2>
+      </div>
+      <p class="sec-lead">2020년 이후 주저자 / 교신저자로 발표한 SCIE급 국제 학술지 주요 논문을 중심으로 정리했습니다.</p>
+    </div>
+
+    <div class="pub-list">
+      <div class="pub-row"><div class="yr">2026</div><div><span class="role">1st author</span></div><div class="ti">Rewrite-Operator Positive Pairs for Few-Shot Adversarially Robust SNS Spam Detection<em>Expert Systems with Applications · under revision</em></div><div class="ar">→</div></div>
+      <div class="pub-row"><div class="yr">2026</div><div><span class="role">1st author</span></div><div class="ti">Predicting Wildfire Damage Severity with Composite Indexing and Fire Weather Features: A Case Study in Gangwon Province, South Korea<em>Fire · under revision</em></div><div class="ar">→</div></div>
+      <div class="pub-row"><div class="yr">2024</div><div><span class="role">1st author</span></div><div class="ti">Scalable Learning Framework for Detecting New Types of Twitter Spam with Misuse and Anomaly Detection<em>Sensors</em></div><div class="ar">→</div></div>
+      <div class="pub-row"><div class="yr">2023</div><div><span class="role">Corresp.</span></div><div class="ti">An IoMT-based Melanoma Lesion Segmentation using Conditional Generative Adversarial Networks<em>Sensors</em></div><div class="ar">→</div></div>
+      <div class="pub-row"><div class="yr">2023</div><div><span class="role">Corresp.</span></div><div class="ti">A Real-Time Data Monitoring Framework for Predictive Maintenance Based on the Internet of Things<em>Complexity</em></div><div class="ar">→</div></div>
+      <div class="pub-row"><div class="yr">2021</div><div><span class="role">1st author</span></div><div class="ti">Cost-Based Heterogeneous Learning Framework for Real-Time Spam Detection in Social Networks With Expert Decisions<em>IEEE Access</em></div><div class="ar">→</div></div>
+      <div class="pub-row"><div class="yr">2021</div><div><span class="role">1st author</span></div><div class="ti">A Heterogeneous Learning Framework for Over-the-Top Consumer Analysis Reflecting the Actual Market Environment<em>Applied Sciences</em></div><div class="ar">→</div></div>
+      <div class="pub-row"><div class="yr">2020</div><div><span class="role">1st author</span></div><div class="ti">Time-Aware Learning Framework for Over-The-Top Consumer Classification Based on Machine- and Deep-Learning Capabilities<em>Applied Sciences</em></div><div class="ar">→</div></div>
+    </div>
+    <div class="pub-note">* 2020년 이후 SCIE급 주저자·교신저자 주요 논문을 선별해 표시했습니다.</div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-num">Projects & Committees</div>
+        <h2 class="sec-title">진행 중인 연구 과제</h2>
+      </div>
+      <p class="sec-lead">외부 연구과제, 정책 자문, 기관 위원회 활동을 포함합니다.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project"><div class="pyr">2024 — 2026 · Principal Investigator</div><div class="pt">소셜미디어상의 이상 행위 탐지를 통한 사회적 악영향 감소 방안 연구</div><div class="pm">한국연구재단 · 신진연구자지원사업 (인문사회)</div></div>
+      <div class="project"><div class="pyr">2023 — · Principal Investigator</div><div class="pt">산불 재난 대응을 위한 예방 거버넌스 및 AI 감시 체계 연구</div><div class="pm">광운대학교 연구지원사업</div></div>
+      <div class="project"><div class="pyr">2025 — · Advisory Committee</div><div class="pt">인공지능 연구 자문위원회 위원</div><div class="pm">국가데이터처 국가통계연구원</div></div>
+      <div class="project"><div class="pyr">2023 — 2025 · Review Committee</div><div class="pt">타당성 검수위원회 위원</div><div class="pm">경기도 공공투자관리센터</div></div>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<div id="site-tweaks"></div>
+<script src="assets/site.js"></script>
+<script>initSite('research');</script>
+</body>
+</html>
