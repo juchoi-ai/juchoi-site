@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow test / internal folders
+Disallow: /uploads/
+Disallow: /_extracted/
+
+Sitemap: https://jaeunchoi.com/sitemap.xml
