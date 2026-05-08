@@ -83,7 +83,7 @@
               <h5>Affiliation</h5>
               <ul>
                 <li>광운대학교 경영대학<span>College of Business · Kwangwoon University</span></li>
-                <li>경영학부 빅데이터경영전공<span>Big Data Management</span></li>
+                <li>경영학부 빅데이터경영전공<span>Division of Business Administration, Major in Big Data Management</span></li>
                 <li>서울 노원구 광운로 20<span>20 Gwangwoon-ro, Nowon-gu, Seoul</span></li>
               </ul>
             </div>
