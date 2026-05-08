@@ -12,8 +12,21 @@
       "badge": "TEDx Keynote",
       "badgeAccent": true,
       "featured": true,
-      "size": "hero",
+      "size": "regular",
       "sortKey": "2025-00-00"
+    },
+    {
+      "id": "jeonnam-library-2026",
+      "date": "2026.05.07",
+      "dateDisplay": "2026.05.07 · 전라남도도립도서관",
+      "host": "전라남도도립도서관 · 제263회 지혜의 숲 도민강좌",
+      "title": "AI 전쟁시대, 인간의 자리는 어디인가? — 『인간 없는 전쟁』",
+      "venue": "도립도서관 다목적강당 · 19:00",
+      "image": "lecture-jeonnam-library.jpeg",
+      "badge": "Library",
+      "featured": true,
+      "size": "regular",
+      "sortKey": "2026-05-07"
     },
     {
       "id": "khightech-2026",
@@ -23,9 +36,9 @@
       "title": "AI 시대, 인문학에서 길을 찾아야 하는 이유",
       "venue": "LS 용산타워 미르홀 · Session 1",
       "image": "lecture-aihumanities.png",
-      "badge": "Upcoming",
+      "badge": "Forum",
       "featured": true,
-      "size": "hero",
+      "size": "regular",
       "sortKey": "2026-04-27"
     },
     {
@@ -55,17 +68,31 @@
       "sortKey": "2025-10-00"
     },
     {
-      "id": "suhyup-2025",
-      "date": "2025.08.28",
-      "dateDisplay": "2025.08.28 · 수협중앙회",
-      "host": "수협중앙회",
-      "title": "AI에 대한 거시적 관점과 수산업 적용 방안",
-      "venue": "수협중앙회 독도홀 · 수산정책 워크숍",
-      "image": "lecture-suhyup.png",
+      "id": "nars-2026",
+      "date": "2026.04.15",
+      "dateDisplay": "2026.04.15 · 국회입법조사처",
+      "host": "국회입법조사처 · 과학방송통신팀",
+      "title": "전장(戰場)에서의 AI 활용 실태와 과제 — 러-우전쟁과 이란전 사례를 중심으로",
+      "venue": "국회입법조사처 제3세미나실 (405-1호) · 전문가 간담회",
+      "image": "lecture-nars-2026.jpeg",
       "badge": "Policy",
       "featured": true,
       "size": "regular",
-      "sortKey": "2025-08-28"
+      "sortKey": "2026-04-15"
+    },
+    {
+      "id": "finnect-2025",
+      "date": "2025.12",
+      "dateDisplay": "2025.12 · 카카오뱅크 FIN:NECT",
+      "host": "카카오뱅크 · 2025 FIN:NECT 성과공유회",
+      "title": "AI 시대가 바꿀 기술과 일, 그리고 사람 — 기조강연",
+      "venue": "FIN:NECT 성과공유회 · Keynote",
+      "image": "lecture-finnect-2025.jpeg",
+      "badge": "Keynote",
+      "badgeAccent": true,
+      "featured": true,
+      "size": "regular",
+      "sortKey": "2025-12-00"
     },
     {
       "id": "jeolla-2025",
@@ -81,6 +108,19 @@
       "sortKey": "2025-11-27"
     },
     {
+      "id": "myongji-2025",
+      "date": "2025.11.21",
+      "dateDisplay": "2025.11.21 · 명지대학교",
+      "host": "명지대학교 융합교육지원센터 · 전문가 초청 특강",
+      "title": "AI 시대 생존법 — AI 리터러시와 AI 프리",
+      "venue": "Zoom 비대면 온라인 특강 · 14:00",
+      "image": "lecture-myongji-2025.png",
+      "badge": "University",
+      "featured": true,
+      "size": "regular",
+      "sortKey": "2025-11-21"
+    },
+    {
       "id": "songnisan-2025",
       "date": "2025.10",
       "dateDisplay": "2025.10 · 충북도립대학교",
@@ -88,6 +128,7 @@
       "title": "AI 시대 생존법 — 대학 혁신지원사업 워크숍",
       "venue": "SONGNISAN FOREST",
       "image": "lecture-songnisan.png",
+      "badge": "University",
       "featured": true,
       "size": "regular",
       "sortKey": "2025-10-00"
@@ -100,6 +141,7 @@
       "title": "챗GPT에게 의존하지 않는 법 · 생각의 근육",
       "venue": "대학혁신지원사업 특강",
       "image": "lecture-youngnam.jpeg",
+      "badge": "University",
       "featured": true,
       "size": "regular",
       "sortKey": "2025-10-01"
@@ -112,6 +154,7 @@
       "title": "2025 꿈·미래·드림교육 — 『한 발짝 더, AI 세상으로』 작가와의 만남",
       "venue": "계룡고 시청각실",
       "image": "lecture-gayago-1.png",
+      "badge": "School",
       "featured": true,
       "size": "regular",
       "sortKey": "2025-07-15"
@@ -124,6 +167,7 @@
       "title": "2025 인문학 한마당 「이음제」 — 저자와의 만남",
       "venue": "러닝센터 톨스토이실",
       "image": "lecture-gayago-2.png",
+      "badge": "School",
       "featured": true,
       "size": "regular",
       "sortKey": "2025-07-18"
@@ -136,6 +180,7 @@
       "title": "AI와 공생하기 독서 프로그램 — 작가와의 만남",
       "venue": "창의융합부 주최 · 전 책 완독 + 골든벨",
       "image": "lecture-gayago-3.png",
+      "badge": "School",
       "featured": true,
       "size": "regular",
       "sortKey": "2025-10-31"
@@ -151,8 +196,21 @@
       "badge": "Featured",
       "badgeAccent": true,
       "featured": true,
-      "size": "hero",
+      "size": "regular",
       "sortKey": "2026-02-11"
+    },
+    {
+      "id": "suhyup-2025",
+      "date": "2025.08.28",
+      "dateDisplay": "2025.08.28 · 수협중앙회",
+      "host": "수협중앙회",
+      "title": "AI에 대한 거시적 관점과 수산업 적용 방안",
+      "venue": "수협중앙회 독도홀 · 수산정책 워크숍",
+      "image": "lecture-suhyup.png",
+      "badge": "Policy",
+      "featured": true,
+      "size": "regular",
+      "sortKey": "2025-08-28"
     }
   ]
 }
