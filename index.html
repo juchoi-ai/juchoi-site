@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta name="naver-site-verification" content="7f695c5609a5eb7676e8b0c13740aa73710768cd" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>최재운 교수 · Jaeun Choi — AI 연구자·저자·강연자 | 광운대학교 경영학부</title>
@@ -108,10 +107,13 @@
 .hero-home .id-block .who .name .en { color: var(--ink-muted); font-size: 20px; font-weight: 400; font-family: var(--serif); font-style: italic; letter-spacing: 0; }
 .hero-home .id-block .who .title { display: block; font-size: 14.5px; color: var(--ink); font-weight: 500; line-height: 1.55; letter-spacing: -0.005em; margin-bottom: 8px; word-break: keep-all; }
 .hero-home .id-block .who .origin { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-muted); line-height: 1.6; }
-.hero-home .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--line); }
-.hero-home .stats div span { display: block; font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 10px; }
-.hero-home .stats div strong { font-weight: 500; color: var(--ink); font-size: 14.5px; letter-spacing: -0.005em; line-height: 1.4; display: block; word-break: keep-all; }
-.hero-home .stats div strong em { font-family: var(--serif); font-style: italic; font-weight: 400; color: var(--accent); font-size: 22px; margin-right: 6px; vertical-align: -2px; }
+.hero-home .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--line); align-items: start; }
+.hero-home .stats > div { min-width: 0; }
+.hero-home .stats div .lbl { display: block; font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 14px; }
+.hero-home .stats div strong { font-weight: 500; color: var(--ink); display: flex; flex-direction: column; gap: 6px; word-break: keep-all; }
+.hero-home .stats div strong em { font-family: var(--serif); font-style: italic; font-weight: 400; color: var(--accent); font-size: 26px; line-height: 1; letter-spacing: -0.01em; }
+.hero-home .stats div strong .t { font-family: var(--sans); font-style: normal; font-weight: 500; font-size: 14px; line-height: 1.35; color: var(--ink); letter-spacing: -0.005em; }
+.hero-home .stats div strong.plain { display: block; font-family: var(--sans); font-style: normal; font-weight: 500; font-size: 14px; line-height: 1.5; color: var(--ink); letter-spacing: -0.005em; }
 
 /* Hero book — carousel: one lead cover front & center, all other covers faint in fixed background slots */
 .book-hero { position: relative; display: flex; flex-direction: column; align-items: stretch; }
@@ -202,7 +204,10 @@
   .hero-home { padding: 80px 0 100px; }
   .hero-home .row { grid-template-columns: 1fr; gap: 64px; }
   .hero-home .meta { gap: 32px; }
-  .hero-home .stats { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .hero-home .stats { grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 44px; }
+  .hero-home .stats div strong em { font-size: 22px; }
+  .hero-home .stats div strong .t { font-size: 13px; }
+  .hero-home .stats div .lbl { font-size: 9px; letter-spacing: 0.18em; margin-bottom: 12px; }
   .hero-home .id-block .who .name { font-size: 36px; }
   .hero-home .id-block .who .name .en { font-size: 17px; }
   .book-hero { max-width: 440px; margin: 0 auto; }
@@ -231,9 +236,9 @@
         </div>
         <p class="kicker"><strong>기계가 인간을 닮을수록, 우리는 더 인간다워져야 한다</strong> — 연구도, 집필도, 강연도 결국 이 한 문장에서 시작됩니다. AI가 바꾸는 일·전쟁·교실을 데이터와 인문학 양쪽에서 읽어내며, 네 권의 책과 TEDx·세바시·그랜드마스터클래스를 비롯한 무대로 이어 왔습니다.</p>
         <div class="stats">
-          <div><span>Books</span><strong><em>4</em>단독 저서</strong></div>
-          <div><span>Talks</span><strong><em>40+</em>연간 강연</strong></div>
-          <div><span>Award</span><strong>브런치북<br>출판 대상</strong></div>
+          <div><span class="lbl">Books</span><strong><em>4</em><span class="t">단독 저서</span></strong></div>
+          <div><span class="lbl">Talks</span><strong><em>40+</em><span class="t">연간 강연</span></strong></div>
+          <div><span class="lbl">Award</span><strong class="plain">12회 브런치북<br>출판 대상 수상</strong></div>
         </div>
       </div>
       <div class="book-hero" id="bookCarousel" tabindex="0" aria-label="책 캐러셀">
@@ -286,7 +291,7 @@
       <a class="ov-card" href="lectures.html" onclick="this.href=window.navHref('lectures.html')">
         <div class="num">No. 03 · Talks</div>
         <h3>전국에서의 <em>강연</em></h3>
-        <p>고등학교부터 육군대학·수협중앙회·TEDx까지. 연 40회 이상의 특강과 북토크.</p>
+        <p>중·고등학교, 대학교는 물론 대기업, CEO 포럼, AI 관련 주요 행사, 언론사 주최 토론회, 육군 대학 현역 장교 대상 특강, TEDx까지.</p>
         <span class="goto">Talks →</span>
       </a>
       <a class="ov-card" href="media.html" onclick="this.href=window.navHref('media.html')">

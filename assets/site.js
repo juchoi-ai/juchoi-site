@@ -72,7 +72,7 @@
         <div class="wrap">
           <div class="row">
             <div>
-              <h2>같이 <span class="kr-italic">이야기할</span><br>자리를 만듭니다.</h2>
+              <h2>함께 <span class="kr-italic">이야기할</span><br>자리를 마련합니다.</h2>
               <p class="sub">AI를 둘러싼 흐름, 그리고 그 안에서 사람이 해야 할 일. 강연·자문·협업 문의를 환영합니다.</p>
               <button class="email-link" data-email-btn>
                 <span data-email-text>이메일 주소 보기</span>
