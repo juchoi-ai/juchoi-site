@@ -37,16 +37,18 @@
 .yt-item .mm .ch { font-family: var(--mono); font-size: 9px; letter-spacing: 0.16em; color: var(--accent); text-transform: uppercase; margin-bottom: 5px; }
 .yt-item .mm .t { font-size: 14px; font-weight: 500; color: var(--ink); line-height: 1.4; letter-spacing: -0.015em; word-break: keep-all; }
 
-.press-row { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--line); border: 1px solid var(--line); }
-.press-item { background: var(--bg); padding: 32px 36px; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; gap: 14px; min-height: 200px; }
+.press-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px; background: var(--line); border: 1px solid var(--line); }
+.press-item { background: var(--bg); padding: 26px 28px; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; gap: 12px; min-height: 190px; }
 .press-item:hover { background: var(--paper); }
 .press-item .outlet { display: flex; justify-content: space-between; align-items: baseline; }
-.press-item .outlet .o { font-weight: 600; font-size: 15px; color: var(--accent); letter-spacing: -0.01em; }
+.press-item .outlet .o { font-weight: 600; font-size: 13.5px; color: var(--accent); letter-spacing: -0.01em; }
 .press-item .outlet .d { font-family: var(--mono); font-size: 10px; color: var(--ink-muted); letter-spacing: 0.04em; }
-.press-item h4 { font-family: var(--sans); font-weight: 500; font-size: 18px; line-height: 1.45; letter-spacing: -0.02em; color: var(--ink); flex-grow: 1; word-break: keep-all; }
+.press-item h4 { font-family: var(--sans); font-weight: 500; font-size: 16px; line-height: 1.4; letter-spacing: -0.02em; color: var(--ink); flex-grow: 1; word-break: keep-all; }
+.press-item h4 .cite { font-family: var(--mono); font-weight: 400; font-size: 10.5px; letter-spacing: 0.04em; color: var(--ink-muted); margin-left: 6px; white-space: nowrap; vertical-align: 1px; }
 .press-item .arr { font-family: var(--mono); font-size: 11px; color: var(--ink-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: auto; }
 
-@media (max-width: 1100px) { .media-grid { grid-template-columns: 1fr; } .press-row { grid-template-columns: 1fr; } }
+@media (max-width: 1100px) { .media-grid { grid-template-columns: 1fr; } .press-row { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 720px) { .press-row { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -107,9 +109,19 @@
     </div>
 
     <div class="press-row">
+      <a class="press-item" href="https://www.joongang.co.kr/article/25384297" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">중앙일보 · 더중앙플러스</span><span class="d">Interview · 2025</span></div>
+        <h4>"아내가 그놈과 바람난 것 같다"… AI 전문가가 우려한 재앙이 터진다</h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
       <a class="press-item" href="https://www.hani.co.kr/arti/economy/it/1249456.html" target="_blank" rel="noopener">
         <div class="outlet"><span class="o">한겨레</span><span class="d">Interview · 2026.03</span></div>
         <h4>"AI 군비경쟁 계속돼도, 전쟁 멈추는 건 여전히 인간의 몫" — 『인간 없는 전쟁』 저자 최재운</h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://news.unn.net/news/articleView.html?idxno=592186" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">한국대학신문</span><span class="d">생각이 한 뼘 커지는 인문학 · 2026</span></div>
+        <h4>최재운 광운대 교수 "AI가 답을 만드는 시대, 인간은 질문을 만들어야"</h4>
         <div class="arr">원문 읽기 →</div>
       </a>
       <a class="press-item" href="https://ch.yes24.com/article/details/81397" target="_blank" rel="noopener">
@@ -125,6 +137,46 @@
       <a class="press-item" href="https://n.news.naver.com/mnews/article/009/0005619627?sid=103" target="_blank" rel="noopener">
         <div class="outlet"><span class="o">매일경제</span><span class="d">Book · 2026.01</span></div>
         <h4>인간이 사라진 전쟁터에서… 인간은 더 위험해졌다 — 『인간 없는 전쟁』</h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://www.donga.com/news/Economy/article/all/20260428/133829774/2" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">동아일보</span><span class="d">Comment · 2026.04</span></div>
+        <h4>"AI 전쟁활용 반대"… 구글 임직원도 CEO에 공개서한 <span class="cite">(본문 인터뷰 인용)</span></h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://www.newsis.com/view/NISX20260426_0003606722" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">뉴시스</span><span class="d">국회 간담회 · 2026.04</span></div>
+        <h4>AI가 표적 찍고 드론이 타격… 국회서 터져 나온 '군사 AI' 경고음</h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://www.kmib.co.kr/article/view.asp?arcid=1772616996&code=11151400&cp=nv" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">국민일보</span><span class="d">Comment · 2026.03</span></div>
+        <h4>마두로·하메네이, 숨어봐야 'AI 손바닥' 위였다 <span class="cite">(본문 인터뷰 인용)</span></h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://www.hankookilbo.com/news/article/A2026011422400001520?did=NA" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">한국일보</span><span class="d">Comment · 2026.01</span></div>
+        <h4>드론, 전장 질서 바꿨지만… 생명의 무게도 앗아갔다 <span class="cite">(본문 인터뷰 인용)</span></h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://www.kmib.co.kr/article/view.asp?arcid=1772700818&code=11151400&cp=nv" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">국민일보</span><span class="d">Comment · 2026.03</span></div>
+        <h4>인간 개입없이 독자적 교전… "아무도 책임 안 지는 회색지대 생길 것" <span class="cite">(본문 인터뷰 인용)</span></h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://www.sidae.com/article/2026031611185339963" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">동행미디어시대</span><span class="d">2026 어젠다 · 2026.03</span></div>
+        <h4>드론·AI가 바꾼 전쟁 문법… 민간 기술이 나라 구한다 <span class="cite">(본문 인터뷰 인용)</span></h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://h21.hani.co.kr/arti/society/society_general/59083.html" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">한겨레21</span><span class="d">표지기사 · 2026.03</span></div>
+        <h4>AI 군인이 전장을 누비는 시대 <span class="cite">(본문 인터뷰 인용)</span></h4>
+        <div class="arr">원문 읽기 →</div>
+      </a>
+      <a class="press-item" href="https://www.kmib.co.kr/article/view.asp?arcid=1776226649&code=23111111&cp=nv" target="_blank" rel="noopener">
+        <div class="outlet"><span class="o">국민일보</span><span class="d">Comment · 2026.04</span></div>
+        <h4>인류애 모르는 AI… 도대체 이 죄는 누가 짊어지나 <span class="cite">(본문 인터뷰 인용)</span></h4>
         <div class="arr">원문 읽기 →</div>
       </a>
     </div>
